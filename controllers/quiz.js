@@ -99,7 +99,7 @@ exports.getByCategoryId = async (req, res) => {
         }
     })
     res.json({
-        message: `Quizzes retrieved successfully with cateroryId=${id}.`,
+        message: `Quizzes retrieved successfully with categoryId=${id}.`,
         data: quizzes,
     });
 }
